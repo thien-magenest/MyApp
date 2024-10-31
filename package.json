@@ -10,6 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "d3": "^7.9.0",
     "expo": "^51.0.0",
     "expo-image": "~1.13.0",
     "expo-linear-gradient": "~13.0.2",
@@ -17,7 +18,9 @@
     "react": "18.3.1",
     "react-native": "0.75.4",
     "react-native-gesture-handler": "^2.20.0",
-    "react-native-reanimated": "^3.15.4"
+    "react-native-reanimated": "^3.15.4",
+    "react-native-safe-area-context": "^4.11.0",
+    "react-native-svg": "^15.7.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
