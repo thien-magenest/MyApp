@@ -26,7 +26,6 @@
 	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
-	  <!-- Do not change NSAllowsArbitraryLoads to true, or you will risk app rejection! -->
 		<key>NSAllowsArbitraryLoads</key>
 		<false/>
 		<key>NSAllowsLocalNetworking</key>
@@ -46,7 +45,44 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>UIViewControllerBasedStatusBarAppearance</key>
-	<false/>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconName</key>
+			<string>AppIcon</string>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>Icon-App</string>
+			</array>
+			<key>UIPrerenderedIcon</key>
+			<false/>
+		</dict>
+		<key>CFBundleAlternateIcons</key>
+		<dict>
+			<key>AppIconTree</key>
+			<dict>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Icon-App</string>
+				</array>
+				<key>CFBundleIconName</key>
+				<string>AppIconTree</string>
+			</dict>
+			<key>AppIconLavender</key>
+			<dict>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Icon-App</string>
+				</array>
+				<key>CFBundleIconName</key>
+				<string>AppIconLavender</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>
